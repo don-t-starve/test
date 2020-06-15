@@ -1,4 +1,5 @@
 package service;
 
-public class BatchInService {
+public interface BatchInService {
+    String invoke();
 }

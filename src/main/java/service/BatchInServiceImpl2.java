@@ -1,8 +1,11 @@
 package service;
 
-public class BatchInServiceImpl1 implements BatchInService {
+import org.springframework.stereotype.Service;
+
+@Service
+public class BatchInServiceImpl2 implements BatchInService {
     @Override
     public String invoke() {
-        return "1";
+        return "2";
     }
 }
